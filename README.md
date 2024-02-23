@@ -1,10 +1,10 @@
 # Small Shell - Custom Shell Implementation in C
 
 ## Introduction
-This project implements a custom shell called smallsh in C. The smallsh shell provides a subset of features similar to well-known shells like bash. It allows users to run commands, handle blank lines and comments, expand variables, execute built-in commands, execute other commands via processes, support input/output redirection, run commands in foreground and background processes, and implement custom signal handlers.
+This project implements a custom shell in C. The shell provides a subset of features similar to well-known shells like bash. It allows users to run commands, handle blank lines and comments, expand variables, execute built-in commands, execute other commands via processes, support input/output redirection, run commands in foreground and background processes, and implement custom signal handlers.
 
 ## Description
-smallsh is a custom shell designed to provide basic shell functionalities such as executing commands, managing processes, handling signals, and supporting input/output redirection. It is developed in C and aims to replicate key features of popular Unix shells like bash.
+This custom shell designed to provide basic shell functionalities such as executing commands, managing processes, handling signals, and supporting input/output redirection. It is developed in C and aims to replicate key features of popular Unix shells like bash.
 
 ## Key Components
 1. **Command Prompt**: Utilizes the colon `:` symbol as a prompt for each command line. Supports command syntax with optional input/output redirection and background execution.
@@ -15,7 +15,7 @@ smallsh is a custom shell designed to provide basic shell functionalities such a
 6. **Signal Handling**: Handles SIGINT and SIGTSTP signals appropriately for foreground and background processes. Displays informative messages and manages shell behavior based on signal reception.
 
 ## Compilation Instructions
-To compile the smallsh shell, follow these steps:
+To compile the shell, follow these steps:
 1. Open a terminal.
 2. Navigate to the directory containing the source code files.
 3. Use the gcc compiler to compile the code:    
